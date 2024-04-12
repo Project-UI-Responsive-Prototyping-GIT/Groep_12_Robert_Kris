@@ -1,0 +1,1076 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background: rgb(161, 53, 53);
+    background: radial-gradient(circle, rgba(161, 53, 53, 1) 0%, rgba(78, 49, 45, 1) 100%);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 75px;
+    padding-right: 75px;
+    align-items: center;
+    height: 100px;
+}
+
+header button {
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+header img {
+    width: 70px;
+}
+
+header a {
+    color: white;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+nav {
+    gap: 110px;
+}
+
+footer img {
+    width: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 75px;
+
+}
+
+footer a {
+    color: black;
+    font-size: 18px;
+}
+
+#hero {
+    background: url(../images/herobg.png);
+    height: 80vh;
+    display: grid;
+    place-items: center;
+}
+
+
+#hero h1 {
+    color: white;
+    font-size: 60px;
+    width: 40vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#hero button {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}
+
+#info {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+
+#redenen {
+    width: 50vw;
+}
+
+li {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 28px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+
+.slideimg {
+    width: 1000px;
+    border-radius: 45px;
+}
+
+#fotoShow {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+#titel {
+    display: grid;
+    place-items: center;
+}
+
+
+#gerechten {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.gerechten {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+
+.gerecht {
+    width: 40vw;
+    background: radial-gradient(circle, rgba(161, 53, 53, 1) 0%, rgba(78, 49, 45, 1) 100%);
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 30px;
+    height: 50vh;
+    border-radius: 20px;
+
+}
+
+.gerecht h1 {
+    color: white;
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+
+.gerecht p {
+    color: white;
+    font-size: 20px;
+}
+
+/* robbberrt */
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#fotoEigenaar {
+    width: 700px;
+    height: 400px;
+    height: auto;
+    grid-column: 2;
+}
+
+.fotos {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 1vh;
+}
+
+#fotosBoven {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.artikelAbout {
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+}
+
+.about {
+    width: 400px;
+    padding-top: 30px;
+}
+
+.fotoAbout {
+    width: 400px;
+    padding-top: 30px;
+}
+
+#videoAbout {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 50px auto 0;
+}
+
+
+#footerNav {
+    display: flex;
+    gap: 15px;
+}
+
+/* Tablet */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /* Home tablet */
+    #hero h1 {
+        width: 80vw;
+    }
+
+    #titel {
+        display: grid;
+        place-items: center;
+        padding-top: 550px !important;
+    }
+
+    #info {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        height: 80vh;
+        justify-content: center;
+
+    }
+
+    #redenen {
+        padding-top: 150px;
+    }
+
+    #info img {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+    .slideimg {
+        width: 90vw;
+    }
+
+    /* About tablet */
+    .artikelAbout {
+        padding-right: 25px;
+        padding-left: 25px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        gap: 0px;
+    }
+
+    .about {
+        width: 80vw;
+    }
+
+    .fotoAbout {
+        width: 50vw;
+    }
+
+    #videoAbout {
+        width: 80vw;
+    }
+
+    /* Menu tablet */
+    .gerechten {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5px;
+        padding-left: 25px;
+        padding-right: 25px;
+        justify-items: center;
+    }
+
+
+
+    .gerecht {
+        width: 90vw;
+    }
+
+    .gerecht h1 {
+        font-size: 40px;
+    }
+
+
+    /* Gallery tablet */
+    .fotosGalerij {
+        width: 160px;
+    }
+
+    .fotosGalerijB {
+        width: 320px;
+    }
+
+    /* arrangement tablet */
+
+    .arrangement {
+        display: grid;
+        grid-template-columns: 1fr !important;
+        grid-template-rows: repeat(3, 1fr) !important;
+        grid-column-gap: 0px !important;
+        grid-row-gap: 0px !important;
+        height: 80vh !important;
+    }
+
+    .arrangementplaatje {
+        display: grid;
+        place-items: center;
+        padding-bottom: 10px;
+    }
+
+    .arrangementplaatje img {
+        width: 90vw !important;
+        border-radius: 10px;
+    }
+
+    .arrangementprijs {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start !important;
+    }
+
+    .arrangementplaatje img {
+        width: 25vw;
+        border-radius: 10px;
+    }
+
+    .prijzenarrangement {
+        display: flex;
+        align-items: start !important;
+        flex-direction: column;
+    }
+
+    .arrangementprijs button {
+        height: 5vh;
+        width: 90vw !important;
+    }
+
+    /* dranken tablet */
+    .flexdrank {
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        align-items: center;
+    }
+
+    .flexdrank p,
+    h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* dranken mobiel */
+    .flexdrank {
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        align-items: center;
+    }
+
+    .flexdrank p,
+    h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
+
+
+/* Header en footer mobiel en tablet */
+@media screen and (max-width: 1023px) {
+    header {
+        display: none;
+    }
+
+    .gridcontainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    #fotoEigenaar {
+        width: 100%;
+        grid-column: 2 / 4;
+    }
+
+    /* Vacature */
+
+    #vacaturemain {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    #vacainfo {
+        width: 90vw;
+        background-color: aliceblue;
+    }
+
+    #vacature {
+        width: 90vw;
+        padding: 40px;
+    }
+
+}
+
+@media screen and (min-width: 1023px) {
+    .topnav {
+        display: none;
+    }
+
+
+}
+
+
+/* Mobiel */
+
+@media screen and (max-width: 768px) {
+
+    #footerNav {
+        display: none;
+    }
+
+    /* Home Mobiel */
+
+
+
+    #hero h1 {
+        width: 80vw;
+        font-size: 40px;
+    }
+
+    #titel {
+        display: grid;
+        place-items: center;
+        padding-top: 550px !important;
+    }
+
+    #info {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        height: 80vh;
+        justify-content: center;
+
+    }
+
+    #redenen {
+        padding-top: 150px;
+    }
+
+    #info img {
+        padding-top: 50px;
+        padding-bottom: 100px;
+        width: 70vw;
+    }
+
+    .slideimg {
+        width: 90vw;
+    }
+
+
+    /* Menu Mobiel */
+    .gerechten {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5px;
+        justify-items: center;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+    .gerecht {
+        width: 80vw;
+    }
+
+    .gerecht h1 {
+        font-size: 40px;
+    }
+
+
+
+    /* About Mobiel */
+    .artikelAbout {
+        padding-right: 25px;
+        padding-left: 25px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        gap: 0px;
+    }
+
+    .about {
+        width: 80vw;
+    }
+
+    .fotoAbout {
+        width: 50vw;
+    }
+
+    #videoAbout {
+        width: 80vw;
+    }
+
+
+    /* Gallerij Mobiel */
+
+    .fotosGalerij {
+        width: 140px;
+    }
+
+    .fotosGalerijB {
+        width: 280px;
+    }
+
+    /* Form Mobiel */
+    #formmain {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        width: 90vw;
+        height: 150vh !important;
+    }
+
+    form {
+        padding-top: 30px;
+        width: 90vw !important;
+    }
+
+    form section {
+        margin-bottom: 10px;
+        width: 9vw !important;
+        display: flex;
+        flex-direction: column;
+        gap: 0px !important;
+        align-items: center;
+    }
+
+    form article {
+        margin-bottom: 5px;
+        width: 50%;
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    input {
+        width: 90vw !important;
+        border: solid #DAB668;
+        border-radius: 30px;
+        height: 40px;
+    }
+
+
+    #telefoonnummer {
+        width: 90vw !important;
+    }
+
+    #datum {
+        width: 90vw !important;
+    }
+
+    #gelegenheid {
+        width: 90vw !important;
+    }
+
+    #send {
+        width: 90vw !important;
+    }
+
+    #submit {
+        background: rgb(161, 53, 53);
+        background: radial-gradient(circle, rgba(161, 53, 53, 1) 0%, rgba(78, 49, 45, 1) 100%);
+        color: white;
+        width: 100% !important;
+    }
+
+    #tijd {
+        width: 90vw !important;
+        border: solid #DAB668;
+        border-radius: 30px;
+        height: 40px;
+    }
+
+    /* Vacature */
+
+    #vacaturemain {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    #vacainfo {
+        width: 90vw;
+        background-color: aliceblue;
+    }
+
+    #vacature {
+        width: 90vw;
+        padding: 40px;
+    }
+
+    /* arrangement */
+
+    .arrangement {
+        display: grid;
+        grid-template-columns: 1fr !important;
+        grid-template-rows: repeat(3, 1fr) !important;
+        grid-column-gap: 0px !important;
+        grid-row-gap: 0px !important;
+        height: 70vh !important;
+    }
+
+    .arrangementplaatje {
+        display: grid;
+        place-items: center;
+        padding-bottom: 10px;
+    }
+
+    .arrangementplaatje img {
+        width: 90vw !important;
+        border-radius: 10px;
+    }
+
+    .arrangementprijs {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start !important;
+    }
+
+    .arrangementplaatje img {
+        width: 25vw;
+        border-radius: 10px;
+    }
+
+    .prijzenarrangement {
+        display: flex;
+        align-items: start !important;
+        flex-direction: column;
+    }
+
+    .arrangementprijs button {
+        height: 5vh;
+        width: 90vw !important;
+    }
+
+    #intro {
+        width: 90vw !important;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        height: 100vh !important;
+    }
+
+    #intro h2 {
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+
+    #intro img {
+        width: 90vw !important;
+        border-radius: 10px;
+    }
+
+
+
+
+}
+
+.topnav {
+    overflow: hidden;
+    background: rgb(161, 53, 53);
+    background: radial-gradient(circle, rgba(161, 53, 53, 1) 0%, rgba(78, 49, 45, 1) 100%);
+    position: relative;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: white;
+}
+
+.topnav a:hover {
+    color: aliceblue;
+}
+
+.active {
+    background: rgb(161, 53, 53);
+    background: radial-gradient(circle, rgba(161, 53, 53, 1) 0%, rgba(78, 49, 45, 1) 100%);
+    color: white;
+}
+
+.topnav img {
+    width: 5vh;
+    padding: 1vh;
+
+}
+
+#formmain {
+    display: grid;
+    justify-items: center;
+    height: 100vh;
+    margin: 0;
+    padding-top: 50px;
+}
+
+form {
+    width: 1000px;
+}
+
+form section {
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+
+form article {
+    margin-bottom: 5px;
+    width: 50%;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    border: solid #DAB668;
+    border-radius: 30px;
+    height: 40px;
+}
+
+
+#telefoonnummer {
+    width: 200%;
+}
+
+#datum {
+    width: 200%;
+}
+
+#send {
+    background: rgb(161, 53, 53);
+    background: radial-gradient(circle, rgba(161, 53, 53, 1) 0%, rgba(78, 49, 45, 1) 100%);
+    color: white;
+    width: 200%;
+    height: 40px;
+    border-radius: 30px;
+    border: solid #DAB668;
+}
+
+#tijd {
+    width: 100%;
+    border: solid #DAB668;
+    border-radius: 30px;
+    height: 40px;
+}
+
+#gelegenheid {
+    width: 200%;
+}
+
+#reserveringinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30vw;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+
+
+
+/* Vacature */
+#vacaturemain h1 {
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 30px;
+
+}
+
+#vacaturemain {
+    display: flex;
+    gap: 30px;
+}
+
+#vacaturemain h2 {
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+#vacaturemain p {
+    font-size: 20px;
+    font-weight: 200;
+    padding-bottom: 20px;
+}
+
+#vacainfo {
+    width: 30vw;
+}
+
+#vacature {
+    width: 70vw;
+    padding: 40px;
+}
+
+#formvaca {
+    padding-top: 30px;
+}
+
+#formvaca h2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+#vacainfo {
+    padding: 30px;
+}
+
+#vacaturemain iframe {
+    border-radius: 10px;
+    display: grid;
+}
+
+#vacatureform input {
+    border: solid black;
+    border-radius: 10px;
+}
+
+#stagebutton {
+    background: black;
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+    height: 5vh;
+    margin-top: 10px;
+    border: solid black;
+    transition: 0.3s;
+    font-weight: 600;
+}
+
+#stagebutton:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+/* Arrangement */
+
+
+#arrangementmain {
+    background-color: black;
+    display: grid;
+    place-items: center;
+
+}
+
+.arrangement {
+    background-color: rgb(18, 18, 18);
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid #D8B569;
+    width: 90vw;
+    color: white;
+
+
+}
+
+.arrangementprijs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.arrangementplaatje img {
+    width: 25vw;
+    border-radius: 10px;
+}
+
+.prijzenarrangement {
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+}
+
+.arrangementprijs button {
+    background-color: #D8B569;
+    border-radius: 10px;
+    border: solid white;
+    border-bottom: solid 5px white;
+    height: 5vh;
+    width: 14vw;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.arrangementprijs button:hover {
+    border-bottom: solid 3px white;
+
+}
+
+#intro {
+    width: 50vw;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+
+#intro h2 {
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+#intro img {
+    width: 50vw;
+    border-radius: 10px;
+}
+
+#reserveernu {
+    height: 50vh;
+    color: white;
+}
+
+#reserveernu p {
+    font-style: italic;
+}
+
+
+/* dranken desktop */
+
+.flexdrank {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.h1drank {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+/* review desktop*/
+
+.formReview {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+textarea {
+    width: 100%;
+    border: solid #DAB668;
+    height: 40px;
+}
+
+#reviewKlanten {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#reviewKlanten article {
+    border: solid #DAB668;
+    padding: 20px;
+    margin: 15px;
+    width: 50%;
+    border-radius: 10px;
+    background: rgb(161, 53, 53);
+    background: radial-gradient(circle, rgba(161, 53, 53, 1) 0%, rgba(78, 49, 45, 1) 100%);
+    color: white;
+}
+
+#sendReview {
+    background: rgb(161, 53, 53);
+    background: radial-gradient(circle, rgba(161, 53, 53, 1) 0%, rgba(78, 49, 45, 1) 100%);
+    color: white;
+    width: 100%;
+    height: 40px;
+    border-radius: 30px;
+    border: solid #DAB668;
+}
+
+#reviewHoofd {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#reviewUw {
+    display: flex;
+    justify-content: center;
+}
