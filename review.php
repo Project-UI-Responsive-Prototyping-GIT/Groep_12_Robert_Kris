@@ -76,7 +76,7 @@
             <article>
                 <p><strong>Naam: </strong>Lies Zhara</p>
                 <p><strong>Email: </strong>lieszh@gmail.com</p>
-                <p><strong>Review: </strong>Het eten was redelijk, maar niet uitzonderlijk. De service liet wat te wensen over en de sfeer was vrij gewoontjes. Gemiddelde ervaring.</p>
+                <p><strong>Review: </strong>Het eten was redelijk maar niet uitzonderlijk. De service liet wat te wensen over en de sfeer was vrij gewoontjes. Gemiddelde ervaring.</p>
                 <p><strong>Sterren: </strong>⭐⭐⭐</p>
         </article>
         </section>    
